@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row d-flex justify-content-center align-items-center min-vh-100">
+      <div class="col-12 col-md-9 col-lg-6">
+       <div class="text-center text-primary ">
+        <h3>SPLI</h3>
+        <h3>IIER</h3>
+       </div>
+        <div class="row bg-white rounded-4 p-3 mt-5">
+          <div class="col-12 col-md-6">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Bill</label>
+            <div class="position-relative">
+              <div class="position-absolute pt-2 ms-1"><i class="bi bi-currency-dollar"></i></div>
+            </div>
+              <input type="text" class="form-control bg-light text-end" id="exampleFormControlInput1" placeholder="0">
+            </div>
+            <p>Select Tip %</p>
+            <button class="btn btn-primary fw-bold  " style="width:80px ;" >5%</button>
+            <button class="btn btn-primary fw-bold  " style="width:80px">10%</button>
+            <button class="btn btn-primary fw-bold  " style="width:80px">15%</button>
+           
+            <button class="btn btn-primary fw-bold  mt-3" style="width:80px">25%</button>
+            <button class="btn btn-primary fw-bold  mt-3" style="width:80px">50%</button>
+            <button class="btn btn-secondary mt-3" style="width:80px">Custom</button>
+           
+            <div class="my-3">
+              <label for="exampleFormControlInput1" class="form-label">Number of People</label>
+            <div class="position-relative">
+            <div class="position-absolute pt-2 ms-1 ">  <i class="bi bi-person "></i></div>
+          
+              <input type="text" class="form-control bg-light text-end" id="exampleFormControlInput" placeholder="0">
+             
+            </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="row bg-primary p-4 rounded-4 h-100">
+              <div class="d-flex align-item-center justify-content-between">
+                <p class="text-white">Tip Amount 
+                  <br><span class="small">/person</span>
+                </p>
+                <h1 class="text-success">$0.00</h1>
+              </div>
+              <div class="d-flex align-item-center justify-content-between">
+                <p class="text-white">Total
+                  <br><span class="small">/person</span>
+                </p>
+                <h1 class="text-success">$0.00</h1>
+              </div>
+              <button class="btn btn-success text-uppercase mt-auto">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

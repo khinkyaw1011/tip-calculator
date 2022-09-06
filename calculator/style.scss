@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+@import "./node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+
+$font-family-sans-serif:'Space Mono', monospace;
+
+$primary:hsl(183, 100%, 15%);
+$secondary:hsl(189, 41%, 97%);
+$success:hsl(172, 67%, 45%);
+
+//$btn-padding-y:0.3rem;
+//$btn-padding-x:2.3rem;
+$btn-font-size:1.25rem;
+
+$body-bg: hsl(185, 41%, 84%);
+
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
